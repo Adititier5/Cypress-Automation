@@ -29,4 +29,5 @@ Then("User is able to successfully login to the Website", () => {
   cy.get(".inDashboardHeader")
     .contains("Dashboard")
     .should("be.visible", { timeout: 20000 });
+  console.log("yeah! done");
 });
